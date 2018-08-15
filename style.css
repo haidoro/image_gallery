@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+.gallery {
+	position:relative;
+	width: 510px;
+	height:500px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #ededed;
+	line-height: 0;
+}
+
+.mainimage > img {
+	position:absolute;
+	width: 510px;
+}
+.thumbnails {
+	margin: 350px 0 0 0;
+}
+.thumbnails li {
+	float: left;
+	margin: 0 2px 0 0;
+}
+.thumbnails img {
+	border: 2px solid transparent;
+}
+.thumbnails .selected {
+	border: 2px solid #8ac2d0;
+}
+.clear{
+	overflow:hidden;
+}
